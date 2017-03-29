@@ -1,6 +1,8 @@
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
+ require('dotenv').config();
+var url = process.env.MLAB_DB_URL;
+
 
 
 var todoSchema = new mongoose.Schema({
@@ -10,9 +12,7 @@ var todoSchema = new mongoose.Schema({
 
 var Todo = mongoose.model('Todo', todoSchema);
 
-mongoose.connect('mongodb://test:12345@ds143340.mlab.com:43340/todo-db');
-
-
+mongoose.connect(url);
 
 
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
