@@ -15,9 +15,10 @@
         <input type="text" id='item-name' name="item" placeholder="Add new item ..." required />
         <button type="submit" id='add'>Add</button>
       </form>
+
       <ul>
         <% for(var i=0; i<todos.length; i++) {%>
-          <li><%= todos[i].item %></li>
+          <li class='items'><%= todos[i].item %></li>
         <% } %>
       </ul>
     </div>
