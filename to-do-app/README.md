@@ -21,7 +21,7 @@ $ open http://localhost:3000
 $ npm test
 ```
 
-**User Story**
+**User Stories**
 ```
 As a user
 So  that I can have a place to list my todo
