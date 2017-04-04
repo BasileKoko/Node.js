@@ -1,6 +1,6 @@
 **TO DO APP**
 
-This is a web application which allows you to create a todo list.
+This is a simple web application built with Node.js which allows you to create a todo list.  
 You can add a new item by typing it in or delete an item by clicking on it.
 
 
