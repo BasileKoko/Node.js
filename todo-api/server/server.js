@@ -2,9 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var {ObjectID} = require('mongodb');
 
-var {mongoose} = require('./db/mongoose') // => local import diff from library import
-// var mongoose = require('./db/mongoose').mongoose
-// we are requiring the specific mongoose from the file ./db/mongoose
+var {mongoose} = require('./db/mongoose');
 var {Todo} = require('./models/todo');
 var {User} = require('./models/user');
 
