@@ -3,13 +3,14 @@ Todo App
 This is the api version of the todo app. The best way to interact with the app API is to use Postman.
 
 Setup
-
+```
 $ git clone https://github.com/BasileKoko/Node.js/tree/master/todo-api
 $ cd todo-api
 $ npm install
+```
 
 To run program
-
+```
 $ node server.js
 open postman
 these steps to be added shortly
@@ -17,12 +18,13 @@ to test 'POST'
 to test 'GET'
 to test 'UPDATE'
 to test 'DELETE'
-
+```
 
 
 To run test
-
+```
 $ npm test
+```
 
 Modules used for this project:  
 ```javascript
